@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ChromeTest">
+    <parameter name="browser" value="Chrome"/>
+
+    <classes>
+          <class name="TestNg_Twitter.Twitter_1_home"/>
+      <class name="TestNg_Twitter.Twitter_2_search"/>
+      <class name="TestNg_Twitter.Twitter_3_notification"/>
+      <class name="TestNg_Twitter.Twitter_4_messages"/>
+      <class name="TestNg_Twitter.Twitter_5_profile"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

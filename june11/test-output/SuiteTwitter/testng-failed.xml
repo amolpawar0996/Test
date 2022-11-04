@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTwitter]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome(failed)">
+    <classes>
+      <class name="TestNg_Twitter.Twitter_1_home">
+        <methods>
+          <include name="HomeGIF"/>
+          <include name="openbrowser"/>
+          <include name="ctreateobject"/>
+          <include name="Clearobject"/>
+          <include name="closebrowser"/>
+          <include name="logintwitter"/>
+          <include name="logouttwitter"/>
+        </methods>
+      </class> <!-- TestNg_Twitter.Twitter_1_home -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <classes>
+      <class name="TestNg_Twitter.Twitter_1_home">
+        <methods>
+          <include name="HomeGIF"/>
+          <include name="openbrowser"/>
+          <include name="ctreateobject"/>
+          <include name="Clearobject"/>
+          <include name="closebrowser"/>
+          <include name="logintwitter"/>
+          <include name="logouttwitter"/>
+        </methods>
+      </class> <!-- TestNg_Twitter.Twitter_1_home -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [SuiteTwitter] -->
