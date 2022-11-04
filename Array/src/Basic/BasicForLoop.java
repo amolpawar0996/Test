@@ -1,0 +1,25 @@
+package Basic;
+
+public class BasicForLoop {
+	
+public static void main(String[] args) {
+		
+		String a []= new String [5];
+		
+		a[0]= "Amol";
+		a[1]= "Dimpal";
+		a[2]= "Minal";
+		a[3]= "Sagar";
+	    a[4]= "Sumit";
+		
+		System.out.println("##Print all information of array##");
+		
+		for(int i=0; i<=4;i++) {
+			System.out.println(a[i]);
+			
+		}
+		
+	}
+
+
+}
